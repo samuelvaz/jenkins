@@ -1,0 +1,13 @@
+name: Test Scan
+
+on: [push]
+
+jobs: 
+  test_run:
+    name: Run the file
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: this is a test run to checkout
+      uses: actions/checkout@v4.1.2
+    
